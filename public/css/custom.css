@@ -1,0 +1,63 @@
+/* Boothstrap Overright  */
+a#basic-nav-dropdown {
+    color: #fff !important;
+    padding: 4px 40px;
+}
+.nav-item.dropdown {
+    background-color: #27AE60;
+    padding: 2px 20px;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+a.nav-link {
+    margin: 0px 25px;
+    color: #000000 !important;
+}
+.carousel-caption {
+    top: 40%;
+}
+
+svg.slick-arrow.slick-disabled {
+    background-color: #F2F2F2;
+    color: #999999
+}
+
+svg.slick-arrow{
+    background-color:  #27AE60;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s;
+    font-size: 15px
+}
+svg.slick-arrow:hover{
+    background-color: #F2F2F2;
+    color: #999999
+}
+svg.slick-arrow.slick-prev {
+    left: 92%;
+    top: -30%;
+}
+svg.slick-arrow.slick-next {
+    top: -30%;
+    left: 96%;
+}
+
+.productSlide svg.slick-arrow.slick-prev {
+    left: 92%;
+    top: -13%;
+}
+
+.productSlide svg.slick-arrow.slick-next {
+    top: -13%;
+    left: 96%;
+}
+.brandSlide svg.slick-arrow.slick-prev {
+    left: 92%;
+    top: -45%;
+}
+.brandSlide svg.slick-arrow.slick-next {
+    top: -45%;
+    left: 96%;
+}

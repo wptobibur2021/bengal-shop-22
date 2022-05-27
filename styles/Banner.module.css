@@ -1,0 +1,41 @@
+.bannerArea{
+    padding: 50px 0px;
+}
+.bannerItem{
+    position: relative;
+}
+.bannerText{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 50%;
+}
+.bannerText h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.bannerText h5{
+    color: #FF5C00;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.bannerBtn{
+    background-color: #F2F2F2;
+    border: none;
+    color: #FF5C00;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 10px 30px;
+    transition: all 0.5s
+}
+.bannerBtn:hover{
+    background-color: #27AE60
+}
+.bannerBtn:focus{
+    background-color: #27AE60;
+    border-color: transparent;
+    box-shadow: none;
+}

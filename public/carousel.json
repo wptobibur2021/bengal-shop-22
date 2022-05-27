@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Groceries",
+        "img": "/images/category/cat01.png"
+    },
+    {
+        "name": "Fish",
+        "img": "/images/category/cat02.png"
+    },
+    {
+        "name": "Meat",
+        "img": "/images/category/cat03.png"
+    },
+    {
+        "name": "Vegetables",
+        "img": "/images/category/cat06.png"
+    },
+    {
+        "name": "Fruits",
+        "img": "/images/category/cat05.png"
+    },
+    {
+        "name": "Ice Cream",
+        "img": "/images/category/cat06.png"
+    },
+    {
+        "name": "Meat",
+        "img": "/images/category/cat04.png"
+    },
+    {
+        "name": "Vegetables",
+        "img": "/images/category/cat01.png"
+    },
+    {
+        "name": "Groceries",
+        "img": "/images/category/cat02.png"
+    },
+    {
+        "name": "Fish",
+        "img": "/images/category/cat03.png"
+    }
+]

@@ -1,0 +1,17 @@
+.customerSupportArea{
+    padding: 50px 0px;
+}
+.singleSupportArea{
+    display: flex;
+    align-items: center;
+}
+.supportImg{
+    margin-right: 20px;
+}
+.supportText h6{
+    font-weight: 500;
+    color: #333333
+}
+.supportText p{
+    color: #828282
+}

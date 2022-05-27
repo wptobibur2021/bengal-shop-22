@@ -1,0 +1,38 @@
+.promoBannerSectionArea{
+    padding: 50px 0px;
+}
+.singlePromoBannerOne{
+    background-color: #FFF0DC;
+}
+.singlePromoBannerTwo{
+    background-color: #DDF1D6
+}
+.singlePromoBannerThree{
+    background-color: #FFEBB7
+}
+.singlePromoBannerOne, .singlePromoBannerTwo, .singlePromoBannerThree{
+    display: flex;
+    padding: 30px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-content: center;
+}
+.promoBannerText h2{
+    color:#333;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+.promoBtn{
+    background-color: #fff !important;
+    border-radius: 50%;
+    border: none;
+    width: 45px;
+    height: 45px;
+    color: #FF5C00;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

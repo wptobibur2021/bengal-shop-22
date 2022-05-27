@@ -1,0 +1,26 @@
+.categoryCarouselArea{
+ padding: 50px 0px;   
+}
+.categoryItem{
+    text-align: center;
+}
+.sliderItem{
+    margin: 0px 10px;
+    background-color: #F7F7F7;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+.sectionTitleArea{
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+}
+
+.sectionTitleArea::after{
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: #27AE60;
+    position: absolute;
+    margin-top: -1px;
+    border-radius: 25px;
+}
