@@ -8,10 +8,11 @@ import carousel from "../../../public/carousel.json"
 const Category = () => {
     const settings = {
         infinite: false,
-        speed: 500,
         slidesToShow: 6,
-        slidesToScroll: 4,
+        slidesToScroll: 2,
         initialSlide: 0,
+        autoplay: true,
+        autoplaySpeed: 1000,
         nextArrow: <BsArrowRightShort />,
         prevArrow: <BsArrowLeftShort />,
         responsive: [
@@ -41,7 +42,6 @@ const Category = () => {
             }
         ]
     };
-    console.log("Slider: ", carousel)
     return (
         <div className={styles.categoryCarouselArea}>
             <Container>

@@ -26,7 +26,7 @@ export const Customer = () => {
                     <Col md={3} sm={12} lg={3}>
                         <div className={styles.singleSupportArea}>
                             <div className={styles.supportImg}>
-                                <Image src={img1} alt="Customer Name" width="80px" height="80px" />
+                                <Image src={img2} alt="Customer Name" width="80px" height="80px" />
                             </div>
                             <div className={styles.supportText}>
                                 <h6>Authentic Products</h6>
@@ -37,7 +37,7 @@ export const Customer = () => {
                     <Col md={3} sm={12} lg={3}>
                         <div className={styles.singleSupportArea}>
                             <div className={styles.supportImg}>
-                                <Image src={img1} alt="Customer Name" width="80px" height="80px" />
+                                <Image src={img3} alt="Customer Name" width="80px" height="80px" />
                             </div>
                             <div className={styles.supportText}>
                                 <h6>Secure Payment</h6>

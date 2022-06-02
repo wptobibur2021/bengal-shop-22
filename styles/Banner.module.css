@@ -39,3 +39,27 @@
     border-color: transparent;
     box-shadow: none;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 420px) {
+    .bannerArea{
+        padding: 0px;
+    }
+    .bannerText h2{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .bannerText h5{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .bannerBtn{
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    .bannerItem{
+        margin-bottom: 20px;
+    }
+
+}

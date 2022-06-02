@@ -36,3 +36,12 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 420px) {
+    .singlePromoBannerOne, .singlePromoBannerTwo, .singlePromoBannerThree{
+        margin-bottom: 20px;
+    }
+    .promoBannerSectionArea{
+        padding: 0px;
+    }
+}

@@ -1,9 +1,11 @@
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 import styles from "../../../styles/Header.module.css"
 import { Container, Row, Col, Navbar, Button, NavDropdown, Nav } from "react-bootstrap"
 import { BsHeart, BsCart, BsPerson, BsSearch } from "react-icons/bs";
 import logo from "../../../public/images/logo.png"
+
 const Header = () => {
     return (
         <header className={styles.headerArea}>
@@ -12,8 +14,7 @@ const Header = () => {
                     <Row>
                         <Col md={3} lg={3} sm={12}>
                             <div className={styles.logoArea}>
-                                <Image className={styles.logo} src={logo} width="30px" height="30px" alt="Picture of the author" />
-                                <h2>Bengal Shop</h2>
+                                <Image className={styles.logo} src={logo} width="200px" height="40px" alt="Picture of the author" />
                             </div>
                         </Col>
                         <Col md={6} lg={6} sm={12}>
@@ -38,7 +39,7 @@ const Header = () => {
             </div>
             <div className={styles.menuArea}>
                 <Navbar bg="white" expand="lg">
-                    <Container>
+                    <Container className={styles.mobileMenuArea}>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
@@ -49,11 +50,8 @@ const Header = () => {
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                                 </NavDropdown>
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#link">Shop</Nav.Link>
-                                <Nav.Link href="#link">Pages</Nav.Link>
-                                <Nav.Link href="#link">Pages</Nav.Link>
-                                <Nav.Link href="#link">Contact</Nav.Link>
+                                <Link href="/"><a className="nav-link" >Home</a></Link>
+                                <Link href="/shop"><a className="nav-link">Shop</a></Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

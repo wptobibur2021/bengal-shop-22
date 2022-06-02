@@ -1,0 +1,20 @@
+.pageHeroArea{
+    position: relative;
+}
+.pageHeroText{
+    position: absolute;
+    top: 25%;
+    width: 34%;
+    left: 10%;
+}
+.pageHeroText h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF5C00;
+}
+.pageHeroText h3{
+    font-size: 36px;
+    font-weight: 700;
+    color: #27AE60;
+    line-height: 55px;
+}

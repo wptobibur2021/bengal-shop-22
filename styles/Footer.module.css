@@ -1,0 +1,85 @@
+.footerAreaSection{
+    padding: 50px 0px;
+    background-color: #F5F5F5;
+}
+.footerTopArea{
+    padding: 50px 0px;
+}
+.footerWidgets p{
+    margin: 30px 0px;
+}
+.mobileAppImg{
+    display: flex;
+    align-items: center;
+}
+.copyRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.socialMedia{
+    display: inline-flex;
+    padding-left: 0;
+}
+.socialMedia li{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #4F4F4F;
+    transition: all 0.5s;
+    cursor: pointer
+} 
+.socialMedia li:hover{
+    background-color: #FF5E4D;
+    color: #FFFFFF
+}
+.footerMenu{
+    padding-left: 0px;
+}
+.footerMenu li{
+    padding: 10px 0px;
+}
+.footerMenu li a{
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px
+}
+.footerTitle{
+    font-size: 24px;
+    color: #4F4F4F
+}
+.paymentArea{
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 420px) {
+    .footerAreaSection{
+        padding: 20px 0px;;
+    }
+    .footerTopArea{
+        padding: 20px 0px;
+    }
+    .footerWidgets p{
+        margin: 10px 0px;
+    }
+    .mobileAppImg{
+        margin-bottom: 10px;
+    }
+    .footerMenu li{
+        padding: 5px 0px;
+    }
+    .socialMediaArea{
+        justify-content:center;
+        display: flex;
+    }
+    .paymentArea{
+        display:flex;
+        justify-content: center;
+    }
+}

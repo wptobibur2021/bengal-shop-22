@@ -65,3 +65,42 @@
 .menuArea{
     margin-top: 30px
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 420px) {
+    .logoArea{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .searchArea{
+        margin-bottom: 20px;
+    }
+    .mobileMenuArea{
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+    div#basic-navbar-nav {
+        margin-top: 20px !important;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -8,10 +8,11 @@ import Single from './Single';
 const Products = () => {
     const settings = {
         infinite: false,
-        speed: 500,
         slidesToShow: 5,
         slidesToScroll: 2,
         initialSlide: 0,
+        autoplay: true,
+        autoplaySpeed: 2000,
         nextArrow: <BsArrowRightShort />,
         prevArrow: <BsArrowLeftShort />,
         className: 'productSlide',

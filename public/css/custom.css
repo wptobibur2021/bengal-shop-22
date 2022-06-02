@@ -1,13 +1,21 @@
 /* Boothstrap Overright  */
 a#basic-nav-dropdown {
     color: #fff !important;
-    padding: 4px 40px;
-}
-.nav-item.dropdown {
+    padding: 10px 60px !important;
     background-color: #27AE60;
     padding: 2px 20px;
     border-radius: 25px;
+}
+.nav-item.dropdown {
     margin-right: 30px;
+}
+.dropdown-menu.show {
+    margin-top: 5px;
+    margin-left: 26px;
+    transition: all 0.5s
+}
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 a.nav-link {
     margin: 0px 25px;
@@ -16,7 +24,24 @@ a.nav-link {
 .carousel-caption {
     top: 40%;
 }
-
+.nav-tabs {
+    border-bottom: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #333333;
+    background-color: #fff;
+    border-color: transparent;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+.nav-link {
+    color: #828282;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #828282;
+}
+/* React Slick Slider */
 svg.slick-arrow.slick-disabled {
     background-color: #F2F2F2;
     color: #999999
@@ -60,4 +85,33 @@ svg.slick-arrow.slick-next {
 .brandSlide svg.slick-arrow.slick-next {
     top: -45%;
     left: 96%;
+}
+
+@media only screen and (max-width: 420px) {
+    svg.slick-arrow.slick-prev {
+        left: 80%;
+        top: -30%;
+    }
+    svg.slick-arrow.slick-next {
+        top: -30%;
+        left: 92%;
+    }
+    .productSlide svg.slick-arrow.slick-prev {
+        left: 80%;
+        top: -10%;
+    }
+    
+    .productSlide svg.slick-arrow.slick-next {
+        top: -10%;
+        left: 92%;
+    }
+    .brandSlide svg.slick-arrow.slick-prev {
+        left: 80%;
+    }
+    .brandSlide svg.slick-arrow.slick-next {
+        left: 92%;
+    }
+    .carousel-caption {
+        top: 10% !important;
+    }
 }

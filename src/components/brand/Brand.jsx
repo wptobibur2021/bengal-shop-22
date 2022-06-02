@@ -8,10 +8,12 @@ import styles from '../../../styles/Brand.module.css'
 const Brand = () => {
     const settings = {
         infinite: false,
-        speed: 500,
+        // speed: 500,
         slidesToShow: 5,
         slidesToScroll: 2,
         initialSlide: 0,
+        autoplay: true,
+        autoplaySpeed: 1000,
         nextArrow: <BsArrowRightShort />,
         prevArrow: <BsArrowLeftShort />,
         className: 'brandSlide',

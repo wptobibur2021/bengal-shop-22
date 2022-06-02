@@ -15,3 +15,13 @@
 .supportText p{
     color: #828282
 }
+
+@media only screen and (max-width: 420px) {
+    .customerSupportArea{
+        padding: 20px 0px;
+    }
+    .singleSupportArea{
+        justify-content: center;
+        margin-bottom: 20px
+    }
+}

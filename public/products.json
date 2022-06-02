@@ -1,10 +1,11 @@
 [
     {
         "name":"Product Name",
-        "_id": "12356756527",
+        "_id": "1235675892576527",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fruits",
         "image": "/images/products/product01.png",
         "image2": "/images/products/product04.png",
         "gallery" : [
@@ -20,10 +21,11 @@
     },
     {
         "name":"Product Name",
-        "_id": "1235675627",
+        "_id": "123567780125627",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fruits",
         "image": "/images/products/product05.png",
         "image2": "/images/products/product09.png",
         "gallery" : [
@@ -39,10 +41,11 @@
     },
     {
         "name":"Product Name",
-        "_id": "12356789",
+        "_id": "123538156789",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Green Fruits",
         "image": "/images/products/product03.png",
         "image2": "/images/products/product07.png",
         "gallery" : [
@@ -58,10 +61,11 @@
     },
     {
         "name":"Product Name",
-        "_id": "123567787",
+        "_id": "123567681290787",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fresh Fruits",
         "image": "/images/products/product05.png",
         "image2": "/images/products/product09.png",
         "gallery" : [
@@ -77,10 +81,11 @@
     },
     {
         "name":"Product Name",
-        "_id": "12356737",
+        "_id": "123560379012737",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fresh Fruits",
         "image": "/images/products/product04.png",
         "image2": "/images/products/product02.png",
         "gallery" : [
@@ -96,10 +101,11 @@
     },
     {
         "name":"Product Name",
-        "_id": "1235671",
+        "_id": "1235129456671",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fruits",
         "image": "/images/products/product12.png",
         "image2": "/images/products/product11.png",
         "gallery" : [
@@ -115,10 +121,11 @@
     },
     {
         "name":"Product Name",
-        "_id": "1235673",
+        "_id": "123566720973",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fruits",
         "image": "/images/products/product05.png",
         "image2": "/images/products/product09.png",
         "gallery" : [
@@ -134,10 +141,11 @@
     },
     {
         "name":"Product Name",
-        "_id": "1235670",
+        "_id": "12356671270",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fruits",
         "image": "/images/products/product04.png",
         "image2": "/images/products/product07.png",
         "gallery" : [
@@ -153,8 +161,9 @@
     },
     {
         "name":"Product Name",
-        "_id": "1235677",
+        "_id": "123567523407",
         "price": "30",
+        "cat": "Fresh Fruits",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
         "image": "/images/products/product06.png",
@@ -172,10 +181,11 @@
     },
     {
         "name":"Product Name",
-        "_id": "1235647",
+        "_id": "12356561047",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fruits",
         "image": "/images/products/product04.png",
         "image2": "/images/products/product07.png",
         "gallery" : [
@@ -191,10 +201,11 @@
     },
     {
         "name":"Product Name",
-        "_id": "1235607",
+        "_id": "12356730207",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fresh Fruits",
         "image": "/images/products/product02.png",
         "image2": "/images/products/product08.png",
         "gallery" : [
@@ -210,10 +221,251 @@
     },
     {
         "name":"Product Name",
-        "_id": "1235477",
+        "_id": "1235477903",
         "price": "30",
         "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
         "stock": "20",
+        "cat": "Fruits",
+        "image": "/images/products/product02.png",
+        "image2": "/images/products/product03.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product06.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product05.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "1235675652",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fruits",
+        "image": "/images/products/product01.png",
+        "image2": "/images/products/product04.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product07.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product10.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "1235826675627",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fruits",
+        "image": "/images/products/product05.png",
+        "image2": "/images/products/product09.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product12.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product15.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "123566723789",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Green Fruits",
+        "image": "/images/products/product03.png",
+        "image2": "/images/products/product07.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product12.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product15.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "1235012367787",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fresh Fruits",
+        "image": "/images/products/product05.png",
+        "image2": "/images/products/product09.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product14.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product01.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "123578346737",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fresh Fruits",
+        "image": "/images/products/product04.png",
+        "image2": "/images/products/product02.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product13.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product10.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "12354512671",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fruits",
+        "image": "/images/products/product12.png",
+        "image2": "/images/products/product11.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product10.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product01.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "12323405673",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fruits",
+        "image": "/images/products/product05.png",
+        "image2": "/images/products/product09.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product10.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product12.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "12356734570",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fruits",
+        "image": "/images/products/product04.png",
+        "image2": "/images/products/product07.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product09.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product10.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "1234525677",
+        "price": "30",
+        "cat": "Fresh Fruits",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "image": "/images/products/product06.png",
+        "image2": "/images/products/product09.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product02.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product07.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "1235890647",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fruits",
+        "image": "/images/products/product04.png",
+        "image2": "/images/products/product07.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product12.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product15.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "1223535607",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fresh Fruits",
+        "image": "/images/products/product02.png",
+        "image2": "/images/products/product08.png",
+        "gallery" : [
+            {
+                "id": "1", 
+                "img": "/images/products/product06.png"
+            },
+            {
+                "id": "2", 
+                "img": "/images/products/product04.png"
+            }
+        ]
+    },
+    {
+        "name":"Product Name",
+        "_id": "123545477",
+        "price": "30",
+        "desc": "Outstock is a premium Templates theme with advanced admin module. Its extremely customizable, easy to use and fully responsive and retina ready.",
+        "stock": "20",
+        "cat": "Fruits",
         "image": "/images/products/product02.png",
         "image2": "/images/products/product03.png",
         "gallery" : [
