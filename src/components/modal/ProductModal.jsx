@@ -7,10 +7,13 @@ import { addCarts } from '../../../hooks/redux/cartSlice'
 import { useDispatch } from 'react-redux';
 import useNotify from '../../../hooks/notification/useNotify'
 const ProductModal = ({ product, open, close }) => {
+    // Product items distructor below
     const { image, image2, name, price, stock } = product
+    // Quantity state declaration below
     const [qty, setQty] = useState(1)
-    const [itemPrice, setItemPrice] = useState(price)
+    // Dispatch declation below
     const dispatch = useDispatch()
+    // Notification declaration below
     const { errorMessage, successMessage } = useNotify()
     // Quantity ncrement declaration function below
     const qtyPlus = () => {
