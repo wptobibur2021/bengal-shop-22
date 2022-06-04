@@ -1,0 +1,20 @@
+.removeCart{
+    cursor: pointer;
+}
+.cartQtyList{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+
+.cartQtyList li input{
+    width: 50%;
+    text-align: center;
+}
+.cartQtyList li{
+    cursor: pointer;
+}
+.cartTable, .cartPageContainer{
+    padding: 50px 0px;
+}

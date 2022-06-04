@@ -56,6 +56,7 @@ const Header = () => {
                                 </NavDropdown>
                                 <Link href="/"><a className="nav-link" >Home</a></Link>
                                 <Link href="/shop"><a className="nav-link">Shop</a></Link>
+                                <Link href="/cart"><a className="nav-link">Cart</a></Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
