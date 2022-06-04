@@ -4,12 +4,20 @@ import styles from "../../../styles/Product.module.css"
 import { Button, Col } from 'react-bootstrap';
 import { BsEye, BsLink } from "react-icons/bs";
 import ProductModal from '../modal/ProductModal';
+import { useDispatch } from 'react-redux';
+import { addCarts } from '../../../hooks/redux/cartSlice'
 const Single = ({ product }) => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    const { image, image2, name, price } = product
-
+    const { image, name, price } = product
+    const qty = 1
+    // Dispatch declation below
+    const dispatch = useDispatch()
+    // Add to cart function declaration below
+    const addToCart = () => {
+        dispatch(addCarts({ ...product, qty, price }))
+    }
     return (
         <>
             <Col md={11} sm={11} lg={11}>
@@ -24,7 +32,7 @@ const Single = ({ product }) => {
                     <div className={styles.productText}>
                         <h6>{name}</h6>
                         <p>${price}.00</p>
-                        <Button className={styles.addToCartBtn}>Add To Cart </Button>
+                        <Button onClick={addToCart} className={styles.addToCartBtn}>Add To Cart </Button>
                     </div>
                 </div>
             </Col>

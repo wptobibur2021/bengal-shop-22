@@ -4,9 +4,11 @@ import React from "react"
 import styles from "../../../styles/Header.module.css"
 import { Container, Row, Col, Navbar, Button, NavDropdown, Nav } from "react-bootstrap"
 import { BsHeart, BsCart, BsPerson, BsSearch } from "react-icons/bs";
+import { useSelector } from 'react-redux'
 import logo from "../../../public/images/logo.png"
 
 const Header = () => {
+    const carts = useSelector((state) => state.carts)
     return (
         <header className={styles.headerArea}>
             <div className={styles.headerTopArea}>
@@ -27,7 +29,9 @@ const Header = () => {
                         <Col md={3} lg={3} sm={12}>
                             <div className={styles.headerRight}>
                                 <BsHeart />
-                                <BsCart />
+                                <Link href='/cart'>
+                                    <a><BsCart className={styles.cartIcon} /><span className={styles.cartItems}>{carts.cartQty}</span></a>
+                                </Link>
                                 <div className={styles.userIcon} >
                                     <BsPerson />
                                 </div>

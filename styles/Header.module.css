@@ -66,6 +66,22 @@
     margin-top: 30px
 }
 
+.cartItems{
+    background-color: #27ae60;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    right: 19%;
+    top: 6%;
+}
+.cartIcon{
+    position: relative;
+    cursor: pointer;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 420px) {
     .logoArea{
