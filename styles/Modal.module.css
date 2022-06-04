@@ -40,6 +40,15 @@
     cursor: pointer;
 }
 
+.cartQtyList li input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    line-height: 30px;
+    outline: none;
+}
+
 .addToCartBtn{
     background-color: #fff;
     color: #27AE60;
