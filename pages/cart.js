@@ -10,7 +10,6 @@ const cart = () => {
     const carts = useSelector((state) => state.carts)
     return (
         <Layout>
-            <Meta></Meta>
             <div className={styles.cartPageContainer}>
                 {
                     carts.carts.length > 0 ? <CartTable></CartTable> : <NoCart></NoCart>

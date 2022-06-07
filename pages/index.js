@@ -16,7 +16,6 @@ export default function Home() {
   return (
     <Layout>
       <div className="main">
-        <Meta></Meta>
         <div className="mainConainer">
           <Slider></Slider>
           <Category></Category>
