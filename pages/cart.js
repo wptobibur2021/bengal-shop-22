@@ -6,7 +6,7 @@ import CartTable from '../src/components/cart/CartTable'
 import { useSelector } from 'react-redux'
 import NoCart from '../src/components/cart/NoCart'
 import styles from '../styles/Cart.module.css'
-const cart = () => {
+const Cart = () => {
     const carts = useSelector((state) => state.carts)
     return (
         <Layout>

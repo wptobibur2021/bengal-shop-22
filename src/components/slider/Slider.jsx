@@ -29,7 +29,6 @@ const Slider = () => {
                         width="2000px"
                         height="850px"
                     />
-
                     <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -43,7 +42,6 @@ const Slider = () => {
                         width="2000px"
                         height="850px"
                     />
-
                     <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
