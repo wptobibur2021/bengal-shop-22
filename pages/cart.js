@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Col, Table, Row } from 'react-bootstrap'
 import Layout from '../src/components/layout/Layout'
-import Meta from '../src/components/meta/Meta'
 import CartTable from '../src/components/cart/CartTable'
 import { useSelector } from 'react-redux'
 import NoCart from '../src/components/cart/NoCart'
@@ -14,10 +13,9 @@ const Cart = () => {
                 {
                     carts.carts.length > 0 ? <CartTable></CartTable> : <NoCart></NoCart>
                 }
-
             </div>
         </Layout>
     )
 }
 
-export default cart
+export default Cart
