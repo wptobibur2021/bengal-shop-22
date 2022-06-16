@@ -6,34 +6,6 @@ import styles from "../../../styles/Product.module.css"
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 import Single from './Single';
 const Products = () => {
-    const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
-        <button
-            {...props}
-            className={
-                "slick-prev slick-arrow" +
-                (currentSlide === 0 ? " slick-disabled" : "")
-            }
-            aria-hidden="true"
-            aria-disabled={currentSlide === 0 ? true : false}
-            type="button"
-        >
-            Previous
-        </button>
-    );
-    const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
-        <button
-            {...props}
-            className={
-                "slick-next slick-arrow" +
-                (currentSlide === slideCount - 1 ? " slick-disabled" : "")
-            }
-            aria-hidden="true"
-            aria-disabled={currentSlide === slideCount - 1 ? true : false}
-            type="button"
-        >
-            Next
-        </button>
-    );
     const settings = {
         infinite: false,
         slidesToShow: 5,

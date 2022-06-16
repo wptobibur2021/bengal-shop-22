@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import React from "react"
+import React, { useEffect, useState } from "react"
 import styles from "../../../styles/Header.module.css"
 import { Container, Row, Col, Navbar, Button, NavDropdown, Nav } from "react-bootstrap"
 import { BsHeart, BsCart, BsPerson, BsSearch } from "react-icons/bs";
@@ -9,6 +9,18 @@ import logo from "../../../public/images/logo.png"
 
 const Header = () => {
     const carts = useSelector((state) => state.carts)
+    useEffect(() => {
+        window.addEventListener('scroll', isSticky);
+        return () => {
+            window.removeEventListener('scroll', isSticky);
+        };
+    });
+    /* Method that will fix header after a specific scrollable */
+    const isSticky = (e) => {
+        const header = document.querySelector('.menuArea');
+        const scrollTop = window.scrollY;
+        scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+    };
     return (
         <header className={styles.headerArea}>
             <div className={styles.headerTopArea}>
@@ -16,7 +28,7 @@ const Header = () => {
                     <Row>
                         <Col md={3} lg={3} sm={12}>
                             <div className={styles.logoArea}>
-                                <Image className={styles.logo} src={logo} width="200px" height="40px" alt="Picture of the author" />
+                                <Link href="/"><Image className={styles.logo} src={logo} width="200px" height="40px" alt="Picture of the author" /></Link>
                             </div>
                         </Col>
                         <Col md={6} lg={6} sm={12}>
@@ -41,7 +53,7 @@ const Header = () => {
                     </Row>
                 </Container>
             </div>
-            <div className={styles.menuArea}>
+            <div className="menuArea" id="menuAreaID">
                 <Navbar bg="white" expand="lg">
                     <Container className={styles.mobileMenuArea}>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />

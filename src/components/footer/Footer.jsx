@@ -6,7 +6,8 @@ import logo from '../../../public/images/logo.png'
 import AppStore from '../../../public/images/app.png'
 import Google from '../../../public/images/google.png'
 import Payment from '../../../public/images/payment.png'
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaWhatsapp, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import Link from 'next/link'
 const Footer = () => {
     return (
         <div className={styles.footerAreaSection}>
@@ -56,10 +57,9 @@ const Footer = () => {
                         <Col md={3} sm={12} lg={3}>
                             <div className={styles.socialMediaArea}>
                                 <ul className={styles.socialMedia}>
-                                    <li><FaFacebookF /></li>
-                                    <li><FaInstagram /></li>
-                                    <li><FaLinkedinIn /></li>
-                                    <li><FaTwitter /></li>
+                                    <Link href="https://www.linkedin.com/in/tobibur"><a target="_blank"><li><FaLinkedinIn /></li></a></Link>
+                                    <Link target="_blank" href="https://wa.me/+8801722527364"><a target="_blank"><li><FaWhatsapp /></li></a></Link>
+                                    <Link target="_blank" href="https://github.com/wptobibur2021"><a target="_blank"><li><FaGithub /></li></a></Link>
                                 </ul>
                             </div>
                         </Col>
@@ -76,7 +76,7 @@ const Footer = () => {
                     </Row>
                 </Container>
             </div>
-        </div>
+        </div >
     )
 }
 
